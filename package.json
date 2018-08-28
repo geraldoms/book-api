@@ -9,11 +9,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.18.3",
     "express": "^4.16.3",
     "gulp": "^3.9.1",
-    "gulp-nodemon": "^2.2.1"
-  },
-  "devDependencies": {
-    "open": "0.0.5"
+    "gulp-nodemon": "^2.2.1",
+    "mongoose": "^5.2.9"
   }
 }
