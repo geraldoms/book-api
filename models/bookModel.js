@@ -11,4 +11,4 @@ var bookModel = new Schema(
   { timestamps: true }
 );
 
-module.exports = mongoose.model('Book', bookModel);
+module.exports = mongoose.model("Book", bookModel);

@@ -1,10 +1,9 @@
 var bookController = function(Book) {
-  
   var post = (req, res) => {
     var book = new Book(req.body);
     book.save((err, book) => {
       if (err) throw err;
-      res.status(201).send("Book created successfully");
+      res.status(201).send(book);
     });
   };
 
